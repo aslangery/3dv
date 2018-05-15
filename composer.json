@@ -1,0 +1,22 @@
+{
+  "name": "Aslangery/3dv",
+  "description": "description_text",
+  "minimum-stability": "stable",
+  "license": "proprietary",
+  "authors": [
+    {
+      "name": "Aslangery Mokaev",
+      "email": "aslangery@gmail.com"
+    }
+  ],
+  "require": {
+    "symfony/console": "4.1.x-dev",
+    "doctrine/orm": "2.7.x-dev"
+  },
+  "autoload": {
+    "psr-4": { "Commands\\": "commands/",
+                "Models\\": "models/",
+              "App\\":""
+    }
+  }
+}
